@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigo Secreto</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Amigo Secreto</h1>
+    </header>
+    <br><br><br><br><br><br>
+    <img src="assets/header.png" width="150" alt="" style="position: absolute;">
+
+    <div class="container">
+        <div class="input-container">
+            <input type="text" id="nombreInput" placeholder="Ingresa un nombre" class="input">
+            <button id="adicionarBtn" onclick="adicionarNombre()">Agregar</button>
+        </div>
+
+        <ul id="listaNombres"></ul>
+
+        <button id="sortearBtn" onclick="sortearAmigo()">Sortear Amigo</button>
+
+        <div id="resultado"></div>
+    </div>
+
+    <footer>
+        <p>&copy; Challenge Amigo Secreto | Yovanny Rodríguez</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
